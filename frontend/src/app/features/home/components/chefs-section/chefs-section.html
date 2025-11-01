@@ -1,0 +1,50 @@
+<!-- 
+      Le añadimos un 'id' a la sección. Este 'id' es el "ancla" 
+      a la que apuntará nuestro enlace del menú.
+    -->
+    <section class="chefs-section" id="chefs">
+      <div class="container">
+        <!-- Título de la sección -->
+        <div class="section-title text-center">
+          <h2>MEET OUR CHEF</h2>
+          <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+
+        <!-- Carrusel de Chefs -->
+        <div id="chefsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores del carrusel (los puntitos de abajo) -->
+          <div class="carousel-indicators">
+            <button *ngFor="let chef of chefs; let i = index" 
+                    type="button" 
+                    [attr.data-bs-target]="'#chefsCarousel'" 
+                    [attr.data-bs-slide-to]="i" 
+                    [class.active]="i === 0" 
+                    [attr.aria-current]="i === 0 ? 'true' : 'false'"
+                    [attr.aria-label]="'Slide ' + (i + 1)"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- Usamos *ngFor para crear un slide por cada chef en nuestro array -->
+            <div *ngFor="let chef of chefs; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
+              <div class="row align-items-center">
+                <!-- Columna Izquierda: Detalles del Chef -->
+                <div class="col-lg-6">
+                  <div class="chef-details">
+                    <h3>{{ chef.name }}</h3>
+                    <h4>{{ chef.title }}</h4>
+                    <p>{{ chef.bio1 }}</p>
+                    <p>{{ chef.bio2 }}</p>
+                    <div class="signature">{{ chef.signature }}</div>
+                  </div>
+                </div>
+                <!-- Columna Derecha: Imagen del Chef -->
+                <div class="col-lg-6">
+                  <img [src]="chef.imageUrl" class="d-block w-100 chef-image" [alt]="chef.name">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>

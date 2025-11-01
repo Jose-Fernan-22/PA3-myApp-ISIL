@@ -1,0 +1,57 @@
+.chefs-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+    }
+    .section-title h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .section-title p {
+      font-family: 'Open Sans', sans-serif;
+      color: #777;
+      max-width: 600px;
+      margin: 0 auto 50px auto;
+    }
+    .carousel-item .row {
+      background-color: #fdfaf3; /* El fondo beige claro del slide */
+      padding: 40px;
+    }
+    .chef-details h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 28px;
+    }
+    .chef-details h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 25px;
+    }
+    .chef-details p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      color: #777;
+    }
+    .signature {
+      font-family: 'Brush Script MT', cursive; /* Una fuente cursiva para la firma */
+      font-size: 36px;
+      margin-top: 30px;
+    }
+    .chef-image {
+      max-height: 500px;
+      object-fit: cover;
+    }
+    /* Estilo para los indicadores del carrusel */
+    .carousel-indicators button {
+      background-color: #aaa !important;
+      width: 12px !important;
+      height: 12px !important;
+      border-radius: 50%;
+      margin: 0 5px !important;
+    }
+    .carousel-indicators .active {
+      background-color: #333 !important;
+    }

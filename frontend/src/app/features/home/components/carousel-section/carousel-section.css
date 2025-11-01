@@ -1,0 +1,10 @@
+#heroCarousel, .carousel-item {
+      height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+      min-height: 500px; /* Una altura mínima por si la ventana es muy pequeña */
+    }
+
+    .carousel-item img {
+      height: 100%;
+      object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin deformarse */
+      object-position: center;
+    }
