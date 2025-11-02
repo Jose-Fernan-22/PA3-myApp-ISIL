@@ -1,0 +1,5 @@
+/* Estilos básicos para productos-lista */
+:host { display: block; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px; }
+thead { background: #333; color: #fff; }

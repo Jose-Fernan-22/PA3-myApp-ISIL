@@ -1,0 +1,26 @@
+<div style="padding: 25px; background-color: #f4f4f4;">
+  <h2 style="text-align: center;">Lista de Productos (Consumida desde API REST)</h2>
+
+  <div *ngIf="productos.length === 0">
+    <p>Cargando productos desde http://localhost:3001/productos...</p>
+  </div>
+
+  <table *ngIf="productos.length > 0" border="1" style="width: 80%; margin: 20px auto; border-collapse: collapse; background-color: #fff;">
+    <thead>
+      <tr style="background-color: #333; color: white;">
+        <th style="padding: 10px;">ID</th>
+        <th style="padding: 10px;">Nombre</th>
+        <th style="padding: 10px;">Descripción</th>
+        <th style="padding: 10px;">Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let producto of productos" style="text-align: center;">
+        <td style="padding: 8px;">{{ producto.id }}</td>
+        <td style="padding: 8px;">{{ producto.nombre }}</td>
+        <td style="padding: 8px;">{{ producto.descripcion }}</td>
+        <td style="padding: 8px;">{{ producto.precio | currency:'S/ ' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
