@@ -1,26 +1,38 @@
 [
   {
     "id": 1,
-    "nombre": "Laptop Gamer X-1",
+    "nombre": "Green Salad",
     "descripcion": "Laptop gamer 16GB RAM, SSD 1TB, RTX 4060",
-    "precio": 3500
+    "precio": 12
   },
   {
     "id": 2,
-    "nombre": "Mouse Óptico",
+    "nombre": "Eggs Any Style",
     "descripcion": "Mouse inalámbrico ergonómico, 2400 DPI",
-    "precio": 80
+    "precio": 23
   },
   {
     "id": 3,
-    "nombre": "Teclado Mecánico",
+    "nombre": "Chicken Wings",
     "descripcion": "Teclado con switches Cherry MX Red y RGB",
-    "precio": 450
+    "precio": 45
   },
   {
     "id": 4,
-    "nombre": "Monitor Curvo 27\"",
+    "nombre": "Appeteaser Platter",
     "descripcion": "Monitor QHD 144Hz, 1ms de respuesta",
-    "precio": 1200
+    "precio": 23
+  },
+  {
+    "id": 5,
+    "nombre": "Spicy Mixed Olives",
+    "descripcion": "Monitor QHD 144Hz, 1ms de respuesta",
+    "precio": 53
+  },
+  {
+    "id": 6,
+    "nombre": "Wing Roulette",
+    "descripcion": "Monitor QHD 144Hz, 1ms de respuesta",
+    "precio": 25
   }
 ]
