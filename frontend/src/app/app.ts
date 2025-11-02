@@ -11,7 +11,7 @@ import { HomePageComponent } from './features/home/home-page/home-page';
   selector: 'app-root',
   imports: [RouterOutlet, Header, Footer],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 
 export class App {

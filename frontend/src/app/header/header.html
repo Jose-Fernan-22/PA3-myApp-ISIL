@@ -1,19 +1,19 @@
 <nav class="navbar fixed-top navbar-expand-lg" [ngClass]="{'scrolled': isScrolled}">
       <div class="container">
-        <a class="navbar-brand" href="#">GoldenFlavor</a>
+        <a class="navbar-brand" routerLink="/">GoldenFlavor</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" routerLink="." fragment="heroCarousel">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#chefs">Chefs</a>
+              <a class="nav-link" routerLink="." fragment="chefs" >Chefs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" routerLink="." fragment="blog" >Blog</a>
             </li>
           </ul>
         </div>
