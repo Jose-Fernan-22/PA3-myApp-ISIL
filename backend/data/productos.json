@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop Gamer X-1",
+    "descripcion": "Laptop gamer 16GB RAM, SSD 1TB, RTX 4060",
+    "precio": 3500
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Óptico",
+    "descripcion": "Mouse inalámbrico ergonómico, 2400 DPI",
+    "precio": 80
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico",
+    "descripcion": "Teclado con switches Cherry MX Red y RGB",
+    "precio": 450
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor Curvo 27\"",
+    "descripcion": "Monitor QHD 144Hz, 1ms de respuesta",
+    "precio": 1200
+  }
+]
